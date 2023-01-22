@@ -2,17 +2,17 @@ import pyrebase
 from firebase_admin import credentials, firestore, auth
 import firebase_admin, pyrebase, G13_email
 
-credpath = r"E:\Workspace\Computer Shop\computer-shop-b108c-firebase-adminsdk-8ayyh-9f0a94dab6.json"
+credpath = r""
 login = credentials.Certificate(credpath)
 
 firebaseConfig = {
-  'apiKey': "AIzaSyAeIpWFDocsnDtC_cPqaxv6fcM8D6qSm6I",
-  'authDomain': "computer-shop-b108c.firebaseapp.com",
-  'databaseURL': "https://computer-shop-b108c-default-rtdb.asia-southeast1.firebasedatabase.app",
-  'projectId': "computer-shop-b108c",
-  'storageBucket': "computer-shop-b108c.appspot.com",
-  'messagingSenderId': "217551541946",
-  'appId': "1:217551541946:web:5cec0d7777c19376881483"
+  'apiKey': "",
+  'authDomain': "",
+  'databaseURL': "",
+  'projectId': "",
+  'storageBucket': "",
+  'messagingSenderId': "",
+  'appId': ""
 }
 firebase = pyrebase.initialize_app(firebaseConfig)
 dbs = firebase.database() #realtime
