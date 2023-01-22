@@ -2,7 +2,7 @@ import pyrebase
 from firebase_admin import credentials, firestore, auth
 import firebase_admin, pyrebase, G13_email
 
-credpath = r"C:\Users\kunat\OneDrive\Desktop\ProjectNetwork\computer-shop-b108c-firebase-adminsdk-8ayyh-421959c78b.json"
+credpath = r"E:\Workspace\Computer Shop\computer-shop-b108c-firebase-adminsdk-8ayyh-9f0a94dab6.json"
 login = credentials.Certificate(credpath)
 
 firebaseConfig = {
@@ -12,7 +12,7 @@ firebaseConfig = {
   'projectId': "computer-shop-b108c",
   'storageBucket': "computer-shop-b108c.appspot.com",
   'messagingSenderId': "217551541946",
-  'appId': "1:217551541946:web:74a0c6f1bb303ba4881483"
+  'appId': "1:217551541946:web:5cec0d7777c19376881483"
 }
 firebase = pyrebase.initialize_app(firebaseConfig)
 dbs = firebase.database() #realtime
